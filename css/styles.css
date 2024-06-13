@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header, main{
+ padding: 20px 8%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgb(255, 155, 172);
+  box-shadow: 0px 0px 10pxrgba(0, 0, 0, 0.11)k;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: purple;
+  font-size: 1.2rem;
+  padding: 4px 10px;
+  border-radius: 2px;
+  transition: .3s;
+}
+
+header nav ul li a:hover {
+  background: rgb(173, 132, 248);
+}
+
+body {
+  background: pink;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
+.quem-somos {
+  display: flex;
+  flex-direction: column;
+}
+
+.quem-somos img {
+  width: 500px;
+  height: 300px;
+  object-fit: contain;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+}
+
+
+.container {
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+
+  background-image: url(../assets/images/cachorro-Photoroom.png);
+  background-repeat:no-repeat ;
+  background-position: center;
+  background-size: 70%;
+  margin-bottom: 30px;
+}
+h1, h2 {
+  color: #333;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+li {
+  padding: 10px 0;
+  
+}
+
+.form-container {
+  
+  padding: 20px;
+  margin-top: 20px;
+  border: 1px solid #f372de;
+}
+.form-group {
+  margin-bottom: 15px;
+}
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+.form-group input, .form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.form-group button {
+  background: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.form-group button:hover {
+  background: #555;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  padding: 20px;  
+  background: #d199f173;
+}
+h1 {
+  color: #333;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+table, th, td {
+  border: 1px solid #ccc;
+}
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+img {
+  width: 100px;
+  height: auto;
+} 
+footer p {
+  text-align: center;
+}

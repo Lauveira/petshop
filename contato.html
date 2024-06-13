@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petshop - Contato</title>
+    <link rel="stylesheet" href="./css/styles.css">
+        <!-- 
+
+        Esse é um exercício em HTML. 
+        Nesta página, você deve criar um cabeçalho, um conteúdo principal e um rodapé.
+        O cabeçalho deve conter um título e um menu de navegação com três links: Home, Loja e Contato.
+        O conteúdo principal deve conter uma seção com um título e um parágrafo.
+        O rodapé deve conter um parágrafo com o texto "© 2024 Petshop. Todos os direitos reservados.".
+
+        Adicione um formulário de contato com campos para nome, email, telefone e mensagem.
+
+    -->
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Entre em Contato</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="loja.html">Loja</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Conteúdo principal -->
+    <main>
+        <section>
+            <h2>Informações de Contato</h2>
+            <p>Entre em contato conosco para agendar serviços, tirar dúvidas ou fornecer feedback. Estamos aqui para ajudar!</p>
+            <p>Telefone: (11) 1234-5678</p>
+            <p>Email: contato@petshop.com</p>
+        </section>
+        <div class="form-container">
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" id="telefone" name="telefone">
+                </div>
+                <div class="form-group">
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+                </div>
+                <div class="form-group">
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>© 2024 Petshop. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
